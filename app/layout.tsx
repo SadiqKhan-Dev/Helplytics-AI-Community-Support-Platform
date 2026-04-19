@@ -20,6 +20,8 @@ export const metadata: Metadata = {
   description: "Ask for help, offer help, and collaborate with others using AI-powered insights.",
 };
 
+export const dynamic = "force-dynamic";
+
 export default function RootLayout({
   children,
 }: Readonly<{

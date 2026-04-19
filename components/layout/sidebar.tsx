@@ -11,10 +11,16 @@ import {
   Trophy, 
   Brain, 
   Bell, 
-  User
+  User,
+  Home,
 } from "lucide-react";
 
 const routes = [
+  {
+    label: "Home",
+    icon: Home,
+    href: "/",
+  },
   {
     label: "Dashboard",
     icon: LayoutDashboard,
